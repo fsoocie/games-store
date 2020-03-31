@@ -1,0 +1,66 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wrapper-sections{
+  display: inline-block
+}
+.wrapper-search{
+  display: inline-block
+}
+div.ant-card-body{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.img-game-item{
+  height: 182px;
+  width: 300px;
+  margin-bottom: 8px;
+}
+.ant-card-meta-description{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 500;
+}
+.ant-card-meta-title{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.1em;
+    font-family: unset;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+div.ant-card-grid ant-card-grid-hoverable{
+  background-color: #111111;
+}
+
+header.ant-layout-header.header{
+  background-color: #EEE;
+  height: 40px;
+}
+.fireLogo {
+  width: 35px;
+  height: 35px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 8px;
+}
+.span-name{
+  font-size: 1.8em;
+    position: absolute;
+    left: 53px;
+    top: -12px;
+    font-weight: 600;
+}

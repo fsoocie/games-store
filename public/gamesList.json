@@ -1,0 +1,130 @@
+[
+	{
+		"id": 0,
+		"title": "Dota 2",
+		"company": "Valve",
+		"image": "https://steamcdn-a.akamaihd.net/apps/dota2/images/blog/play/dota_heroes.png",
+		"price": 235,
+		"rating": 4
+	  },
+	  {
+		"id": 1,
+		"title": "Counter Strike: Global Offensive",
+		"company": "Valve",
+		"image": "https://sm.ign.com/ign_ru/news/c/counter-st/counter-strike-global-offensive-players-are-very-u_wnu2.jpg",
+		"price": 490,
+		"rating": 5
+	  },
+	  {
+		"id": 2,
+		"title": "Fortnite",
+		"company": "Epic Games",
+		"image": "https://static-assets-prod.epicgames.com/fortnite/static/webpack/8f9484f10eb14f85a189fb6117a57026.jpg",
+		"price": 1000,
+		"rating": 2
+	  },
+	  {
+		"id": 3,
+		"title": "The Binding Of Isaac: 'Rebirth'",
+		"company": "Nicalis",
+		"image": "https://u.yablyk.com/2017/12/the-blinding-of-isaac-rebirth-game-1.jpg",
+		"price": 340,
+		"rating": 5
+	  },
+	  {
+		"id": 5,
+		"title": "Farming Simulator 2019",
+		"company": "Giants Software",
+		"image": "https://ixbt.online/idata/gtnews/2020/01/%5B5e3308a7e715d%5D/0Fvn8hctGUQAgUQSJtgFgKul3n3PMwhW1qwvPDum.jpeg?fmt=jpg",
+		"price": 2390,
+		"rating": 4
+	  },
+	  {
+		"id": 6,
+		"title": "Mortal Kombat X",
+		"company": "Valve",
+		"image": "https://images.g2a.com/newlayout/323x433/1x1x0/b8c0a75f374c/590ef6feae653a4662052eab",
+		"price": 1749,
+		"rating": 5
+	  },
+	  {
+		"id": 7,
+		"title": "Prime World",
+		"company": "Nival",
+		"image": "https://3dnews.ru/assets/external/illustrations/2014/01/17/795801/release_adorn1.png",
+		"price": 135,
+		"rating": 5
+	  },
+	  {
+		"id": 8,
+		"title": "World Of Tanks",
+		"company": "Wargaming",
+		"image": "https://bm.img.com.ua/berlin/storage/orig/5/54/17d4f54e20dd7af687d178fc14aa4545.jpg",
+		"price": 799,
+		"rating": 3
+	  },
+	  {
+		"id": 9,
+		"title": "Terraria",
+		"company": "Re-Logic",
+		"image": "https://images.gog-statics.com/b34a334a6f4c621d71668c5483011a32bdef6c135e73dfa5f7a5c1c4517fee93_product_card_v2_mobile_slider_639.jpg",
+		"price": 640,
+		"rating": 1
+	  },
+	  {
+		"id": 10,
+		"title": "While True: Learn()",
+		"company": "Nival",
+		"image": "https://sm.ign.com/ign_ru/screenshot/default/steam-banner_myp8.jpg",
+		"price": 286,
+		"rating": 2
+	  },
+	  {
+		"id": 11,
+		"title": "Infinifactory",
+		"company": "Zachtronics",
+		"image": "https://steamcdn-a.akamaihd.net/steam/apps/300570/capsule_616x353.jpg?t=1526408057",
+		"price": 55,
+		"rating": 1
+	  },
+	  {
+		"id": 12,
+		"title": "Tetris99",
+		"company": "Game Boy",
+		"image": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Tetris99.jpg",
+		"price": 29,
+		"rating": 4
+	  },
+	  {
+		"id": 13,
+		"title": "Call of Duty: Black Ops 4",
+		"company": "Treyarch",
+		"image": "https://24tv.ua/resources/photos/news/201810/1046254.jpg?1539328781000",
+		"price": 999,
+		"rating": 4
+	  },
+	  {
+		"id": 14,
+		"title": "Assassin's Creed IV: Black Flag",
+		"company": "Ubisoft",
+		"image": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/Assassin%E2%80%99s_Creed_IV-_Black_Flag_-_PC.jpeg/274px-Assassin%E2%80%99s_Creed_IV-_Black_Flag_-_PC.jpeg",
+		"price": 749,
+		"rating": 5
+	  },
+	  {
+		"id": 15,
+		"title": "Need for Speed: ProStreet",
+		"company": "EA",
+		"image": "https://i.playground.ru/p/qHMRWlynwztMh0nc0pliAQ.jpeg",
+		"price": 499,
+		"rating": 5
+	  },
+	  {
+		"id": 16,
+		"title": "Call of Duty: Black Ops 2",
+		"company": "Treyarch",
+		"image": "https://file-cdn.gvgmall.com/product/P201609081840430739.jpg",
+		"price": 190,
+		"rating": 2
+	  }
+]
