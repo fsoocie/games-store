@@ -1,6 +1,8 @@
 import React from 'react'
 import { Menu, Input, Layout } from 'antd';
 import fireLogo from '../fire-react.svg'
+import { Popover, Button } from 'antd';
+import { Game } from '../reducers/games'
 import {
   ShoppingCartOutlined,
   UpOutlined,
@@ -9,6 +11,7 @@ import {
   WifiOutlined
 
 } from '@ant-design/icons';
+import {PopupCart} from './popup'
 const { Header } = Layout
 const { Search } = Input
 
@@ -18,19 +21,28 @@ type Props = {
 	sortByName: () => void
 	sortById: () => void
 	setQuerySearch: (querySearch:string) => void
+	removeGameFromCart: (id: number) => void
 	querySearch: string
+	totalCount: number
+	games: Array<Game>
+	gamesCart: Array<Game>
+	totalItems: number
 }
+
 
 export class MainMenu extends React.Component<Props>{
 	
 render(){
-	const {sortByLowPrice, sortByHighPrice, sortById, sortByName, setQuerySearch,querySearch} = this.props
+	const {sortByLowPrice, removeGameFromCart, totalItems, sortByHighPrice, sortById, sortByName, setQuerySearch,querySearch, totalCount, gamesCart} = this.props
 	return(
 		<div className = 'wrapper-menu'>
 			<div className = 'header-wrapper'>
 			<Header className="header"> 
-					<img src={fireLogo} className='fireLogo' alt ='logo' /> <span className = 'span-name'>Games Store</span> 
-					<ShoppingCartOutlined style={{ fontSize: '32px', position: 'absolute', right: '8px', top: '2px' }} />
+					<img src={fireLogo} className='fireLogo' alt ='logo' /> <span className = 'span-name'>Games Store</span>
+					<Button type="link" size = 'large' ghost className = 'lastPrice'> Итого: {totalCount} руб. </Button>
+					<Popover placement="bottomRight" title={'Выбранные игры:'} content={<PopupCart gamesCart={gamesCart} removeGameFromCart = {removeGameFromCart}/>} trigger="hover">
+	<Button type="link" size = 'large' className = 'cartButton'> <span ><ShoppingCartOutlined/> Корзина ({totalItems}) </span> </Button>
+      				</Popover>
 			</Header>
 			</div>
 
@@ -61,7 +73,7 @@ render(){
 			</div>
 			<div className='wrapper-search'>
 				<Search
-				placeholder="Поиск по книгам.."
+				placeholder="Поиск по играм.."
 				onChange ={(e:React.ChangeEvent<HTMLInputElement>) => setQuerySearch(e.currentTarget.value) }
 				value =  {querySearch}
 				style={{ width: 200 }}/>

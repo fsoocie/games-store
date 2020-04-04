@@ -1,15 +1,17 @@
 import { createStore, combineReducers, applyMiddleware  } from 'redux'
 import { games, GamesState } from '../reducers/games'
-import { GamesActionTypes, } from '../actions/gamesActions'
 import thunk from 'redux-thunk'
+import { cart, TCartState } from '../reducers/cart'
+
 
 export type RootState = {
 	games: GamesState
-  }
-type RootAction = GamesActionTypes
+	cart:  TCartState
+}
 
-const rootReducer = combineReducers<RootState, RootAction>({
-	games
-  });
+
+const rootReducer = combineReducers<RootState>({
+	games, cart
+});
 
 export let store = createStore(rootReducer, applyMiddleware(thunk))

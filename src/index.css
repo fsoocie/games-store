@@ -1,7 +1,10 @@
 
-
+html{
+  overflow-x: hidden;
+}
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -63,4 +66,29 @@ header.ant-layout-header.header{
     left: 53px;
     top: -12px;
     font-weight: 600;
+}
+.cartButton{
+  position: relative;
+    left: 80%;
+    top: -10px;
+}
+.lastPrice{
+  position: relative;
+    left: 80%;
+    top: -10px;
+}
+.lastPrice span {
+  font-size: 15px
+}
+button.ant-btn.lastPrice.ant-btn-link.ant-btn-lg.ant-btn-background-ghost{
+  cursor: default
+}
+span.span-name{
+  height: 50px
+}
+.wrapper-search{
+  margin-left: 20px
+}
+.popup-delete{
+  margin-left: 8px
 }
